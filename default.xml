@@ -3,11 +3,11 @@
 
   <remote name="caf"
   		  fetch="git://codeaurora.org/"
-  		  revision="LA.BF.1.1.1_rb1.19"/>
+  		  revision="LA.BF.1.1.1.c3_1"/>
   
   <remote name="aosp"
           fetch="https://android.googlesource.com"
-          revision="refs/tags/android-5.1.0_r3"/>
+          revision="refs/tags/android-5.1.0_r5"/>
 
   <remote name="github"
   		  fetch="git://github.com"
