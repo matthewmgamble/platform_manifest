@@ -44,7 +44,7 @@
   <project groups="pdk" name="CAF-victara/platform_bionic" path="bionic" remote="github"/>
   <project groups="pdk-cw-fs" name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
-  <project groups="pdk" name="platform/build" path="build">
+  <project groups="pdk" name="CAF-victara/platform_build" path="build" remote="github">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project groups="cts,pdk-cw-fs" name="platform/cts" path="cts"/>
