@@ -32,6 +32,7 @@
   <project groups="pdk" name="device/google/accessory/arduino"/>
   <project groups="pdk" name="device/google/accessory/demokit"/>
   <project groups="pdk" name="device/google/atv"/>
+  <project name="CAF-victara/device_moto_victara" path="device/moto/victara" remote="github"/>
   <project name="device/qcom/common">
     <copyfile dest="build.sh" src="build.sh"/>
     <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
@@ -39,6 +40,7 @@
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
   <project name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project name="CAF-victara/kernel_msm" path="kernel" remote="github"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="CAF-victara/platform_bionic" path="bionic" remote="github"/>
