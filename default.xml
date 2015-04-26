@@ -16,27 +16,10 @@
   <default remote="caf"/>
   
   <project groups="pdk-cw-fs" name="device/common"/>
-  <project groups="pdk" name="device/generic/arm64"/>
-  <project groups="pdk" name="device/generic/armv7-a-neon"/>
-  <project groups="pdk" name="device/generic/common"/>
-  <project groups="pdk" name="device/generic/goldfish"/>
-  <project groups="pdk" name="device/generic/mini-emulator-arm64"/>
-  <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon"/>
-  <project groups="pdk" name="device/generic/mini-emulator-mips"/>
-  <project groups="pdk" name="device/generic/mini-emulator-x86"/>
-  <project groups="pdk" name="device/generic/mini-emulator-x86_64"/>
-  <project groups="pdk" name="device/generic/mips"/>
-  <project name="device/generic/qemu"/>
-  <project groups="pdk" name="device/generic/x86"/>
-  <project groups="pdk" name="device/generic/x86_64"/>
-  <project groups="pdk" name="device/google/accessory/arduino"/>
-  <project groups="pdk" name="device/google/accessory/demokit"/>
-  <project groups="pdk" name="device/google/atv"/>
   <project name="CAF-victara/device_moto_victara" path="device/moto/victara" remote="github"/>
   <project name="CAF-victara/device_qcom_common" path="device/qcom/common" remote="github"/>
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project name="CAF-victara/kernel_msm" path="kernel" remote="github"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
@@ -325,27 +308,9 @@
   <project groups="pdk-cw-fs" name="platform/frameworks/webview" path="frameworks/webview"/>
   <project groups="pdk-cw-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project groups="pdk" name="platform/hardware/akm" path="hardware/akm"/>
-  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
-  <project groups="pdk" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
-  <project groups="pdk" name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media"/>
-  <project groups="pdk" name="platform/hardware/intel/bootstub" path="hardware/intel/bootstub"/>
-  <project groups="pdk" name="platform/hardware/intel/common/bd_prov" path="hardware/intel/common/bd_prov"/>
-  <project groups="pdk" name="platform/hardware/intel/common/libmix" path="hardware/intel/common/libmix"/>
-  <project groups="pdk" name="platform/hardware/intel/common/libstagefrighthw" path="hardware/intel/common/libstagefrighthw"/>
-  <project groups="pdk" name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva"/>
-  <project groups="pdk" name="platform/hardware/intel/common/libwsbm" path="hardware/intel/common/libwsbm"/>
-  <project groups="pdk" name="platform/hardware/intel/common/omx-components" path="hardware/intel/common/omx-components"/>
-  <project groups="pdk" name="platform/hardware/intel/common/utils" path="hardware/intel/common/utils"/>
-  <project groups="pdk" name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core"/>
-  <project groups="pdk" name="platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer"/>
-  <project groups="pdk" name="platform/hardware/intel/img/libdrm" path="hardware/intel/img/libdrm"/>
-  <project groups="pdk" name="platform/hardware/intel/img/psb_headers" path="hardware/intel/img/psb_headers"/>
-  <project groups="pdk" name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video"/>
   <project groups="pdk" name="platform/hardware/invensense" path="hardware/invensense"/>
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
-  <project groups="pdk" name="platform/hardware/nvidia/audio" path="hardware/nvidia/audio"/>
-  <project groups="pdk" name="platform/hardware/nvidia/tegra124" path="hardware/nvidia/tegra124"/>
   <project groups="qcom,default" name="CAF-victara/platform_hardware_qcom_audio" path="hardware/qcom/audio" remote="github"/>
   <project groups="qcom,default" name="CAF-victara/platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="github"/>
   <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
@@ -355,10 +320,6 @@
   <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors"/>
   <project groups="qcom,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
-  <project groups="pdk" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5"/>
-  <project groups="pdk" name="platform/hardware/ti/omap3" path="hardware/ti/omap3"/>
-  <project groups="pdk" name="platform/hardware/ti/omap4-aah" path="hardware/ti/omap4-aah"/>
-  <project groups="pdk" name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project name="platform/ndk" path="ndk"/>
