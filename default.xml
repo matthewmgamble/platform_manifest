@@ -379,7 +379,7 @@
   <project groups="pdk-cw-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider"/>
   <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider"/>
   <project name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
+  <project name="CAF-victara/platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="github"/>
   <project name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider"/>
   <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
   <project name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
