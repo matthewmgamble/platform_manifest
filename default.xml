@@ -3,15 +3,15 @@
 
   <remote name="caf"
   		  fetch="git://codeaurora.org/"
-  		  revision="LA.BF.1.1.1.c3_1"/>
+  		  revision="LA.BF.1.1.1_rb1.20"/>
   
   <remote name="aosp"
           fetch="https://android.googlesource.com"
-          revision="refs/tags/android-5.1.0_r5"/>
+          revision="refs/tags/android-5.1.1_r1"/>
 
   <remote name="github"
   		  fetch="git://github.com"
-  		  revision="lollipop-5.1.0-unofficial-victara"/>
+  		  revision="lollipop-5.1.1-unofficial-victara"/>
            
   <default remote="caf"/>
   
